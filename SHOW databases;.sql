@@ -1,0 +1,1 @@
+SELECT  * FROM sku WHERE num = 400 ORDER BY num DESC LIMIT 4;

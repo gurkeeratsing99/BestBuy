@@ -1,0 +1,10 @@
+CREATE TABLE sku(
+    num INT PRIMARY KEY NOT NULL,
+    created_at TIMESTAMP DEFAULT NOW()
+);
+
+USE bestBuy;
+INSERT INTO sku(num) VALUES (7878);
+
+SELECT * FROM sku;
+INSERT INTO sku(num) VALUES (568);

@@ -1,26 +1,9 @@
-async function sum(num){
-    try{
-    let promise = new Promise((resolve, reject)=>{
-        if(num >10){
-        resolve ("Num is graeter");}
-        else{
-            reject ("Num is smaller");
-        }
-    });
-        
-        await promise;
-        console.log("Operation is done" ,result);
-        
-        return promise;
-    }
-    catch(err){
-        console.log(err,"is the err")
-    }
+async function getresult(){
+
 }
-
-
 
 module.exports = {
   x : 10,
-  sum
+  q : "INSERT INTO sku(num) VALUES (?)"
+  
 }
